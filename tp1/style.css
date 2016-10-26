@@ -1,0 +1,11 @@
+body{
+	background-color:lightgrey;
+}
+table{
+	width : 100%;
+	background-color:white;
+}
+img{
+	height:50px;
+	}
+a:hover{ background-color : orange;}
