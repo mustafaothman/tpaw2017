@@ -1,0 +1,42 @@
+
+<html>
+
+<head>
+
+<meta charset="utf-8"/>
+
+<link rel="stylesheet"
+
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src="controler.js"></script>
+
+</head>
+
+<body>
+<form id="searchCity">
+<div class="input-group">
+  <div class="input-group-btn">
+
+ <button  class="btn btn-info" >GPS</button>
+  </div>
+<input type="search" ng-model="city" placeholder="city" class="form-control" required placeholder="Votre ville, Paris, NY..."/>
+<div class="input-group-btn">
+
+ <button type="submit"  class="btn btn-primary" ng-click="recherche()">Recherche</button>
+  </div>
+
+</div>
+</div>
+</form>
+
+<img src="" id="icon"/>
+<div id="desc"></div>
+<div id="resultat"></div>
+
+
+
+
+</body>
+
+</html>
